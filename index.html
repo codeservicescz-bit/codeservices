@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Minecraft skripty, konfigurace a nastavení serverů na míru." />
+    <title>CodeServices — služby pro váš server</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="overrides.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#uvod" aria-label="CodeServices – úvodní stránka">
+        <span class="brand-mark" aria-hidden="true"></span>
+        CodeServices
+      </a>
+      <nav aria-label="Hlavní navigace">
+        <a href="#sluzby">Služby</a>
+        <a href="#o-nas">O nás</a>
+        <a href="#postup">Jak to funguje</a>
+        <button class="language-trigger" id="language-trigger" type="button">🌐 Jazyk</button>
+        <button class="language-trigger" id="social-trigger" type="button">✨ Sociální sítě</button>
+        <a class="nav-cta" href="auth.html">Přihlásit se <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main id="uvod">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> Minecraft &amp; server služby</p>
+          <h1>Váš server.<br /><em>Vaše pravidla.</em></h1>
+          <p class="hero-text">Skripty, konfigurace a základní nastavení, které sedí přesně tomu, jak chcete hrát.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="auth.html?mode=register">Objednat službu <span aria-hidden="true">→</span></a>
+            <a class="text-link" href="#sluzby">Prohlédnout služby <span aria-hidden="true">↓</span></a>
+          </div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="sun"></div>
+          <div class="cloud cloud-one"></div>
+          <div class="cloud cloud-two"></div>
+          <div class="hill hill-back"></div>
+          <div class="hill hill-front"></div>
+          <div class="block block-large"></div>
+          <div class="block block-small"></div>
+          <div class="grass-grain"></div>
+          <p class="coordinate">x 128 / y 64 / z -340</p>
+        </div>
+      </section>
+
+      <section class="services" id="sluzby">
+        <div class="section-intro">
+          <p class="eyebrow"><span></span> co umím připravit</p>
+          <h2>Služby, které dají<br />vašemu projektu řád.</h2>
+        </div>
+        <div class="service-grid">
+          <article class="service-card service-card-featured">
+            <div class="card-number">01</div>
+            <div class="pixel-icon icon-command" aria-hidden="true"><i></i><i></i><i></i></div>
+            <p class="card-kicker">Minecraft server</p>
+            <h3>Skripty &amp;<br />konfigurace</h3>
+            <ul>
+              <li>Custom příkazy a drobná GUI</li>
+              <li>Konfigurace pluginů na míru</li>
+              <li>Zprávy a nastavení podle serveru</li>
+            </ul>
+            <div class="price"><span>od</span><strong>50 Kč</strong><small>/ 2 €</small></div>
+          </article>
+
+          <article class="service-card">
+            <div class="card-number">02</div>
+            <div class="pixel-icon icon-server" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+            <p class="card-kicker">pro váš projekt</p>
+            <h3>Webové<br />stránky</h3>
+            <ul>
+              <li>Moderní web na míru</li>
+              <li>Prezentace služeb a ceníku</li>
+              <li>Funkční také na mobilu</li>
+            </ul>
+            <div class="price price-custom"><span>cena</span><strong>dle domluvy</strong></div>
+          </article>
+
+          <article class="service-card">
+            <div class="card-number">03</div>
+            <div class="pixel-icon icon-discord" aria-hidden="true"><i></i><i></i><i></i></div>
+            <p class="card-kicker">pro komunitu</p>
+            <h3>Discord server<br />na míru</h3>
+            <ul>
+              <li>Role, kanály a přehledná struktura</li>
+              <li>Základní zabezpečení serveru</li>
+              <li>Prostor připravený pro komunitu</li>
+            </ul>
+            <div class="price"><span>od</span><strong>75 Kč</strong><small>/ 3 €</small></div>
+          </article>
+
+          <aside class="service-note">
+            <span class="note-arrow" aria-hidden="true">↙</span>
+            <p>Každou zakázku nejdřív probereme. Dostanete cenu dopředu a nic navíc nepřekvapí.</p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="about" id="o-nas">
+        <div>
+          <p class="eyebrow"><span></span> o nás</p>
+          <h2>Tvoříme služby,<br /><em>které fungují.</em></h2>
+        </div>
+        <div class="about-copy">
+          <p>CodeServices pomáhá komunitám a projektům s Minecraft servery, weby i Discordem. Každou zakázku řešíme osobně a podle toho, co váš projekt opravdu potřebuje.</p>
+          <a class="text-link" href="auth.html?mode=register">Vytvořit účet <span aria-hidden="true">→</span></a>
+        </div>
+      </section>
+
+      <section class="process" id="postup">
+        <div>
+          <p class="eyebrow"><span></span> jednoduchý postup</p>
+          <h2>Bez zbytečného<br />čekání a chaosu.</h2>
+        </div>
+        <ol>
+          <li><span>01</span><div><h3>Napíšete mi</h3><p>Krátce popíšete, co na serveru potřebujete vyřešit.</p></div></li>
+          <li><span>02</span><div><h3>Domluvíme řešení</h3><p>Upřesníme rozsah, cenu i termín dodání.</p></div></li>
+          <li><span>03</span><div><h3>Hrajete</h3><p>Hotovou konfiguraci nebo skript předám připravený k použití.</p></div></li>
+        </ol>
+      </section>
+
+      <section class="contact" id="kontakt">
+        <div>
+          <p class="eyebrow eyebrow-light"><span></span> máte nápad?</p>
+          <h2>Pojďme ho<br /><em>postavit.</em></h2>
+        </div>
+        <div class="contact-box">
+          <p>Vytvořte si účet a objednávku pošlete přímo z panelu.</p>
+          <a href="auth.html?mode=register">Vytvořit účet <span aria-hidden="true">↗</span></a>
+          <small>Přihlášení vám zpřístupní přehled vašich objednávek.</small>
+        </div>
+      </section>
+    </main>
+
+    <footer><span>© 2026 CodeServices</span><span>minecraft služby na míru</span></footer>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+/* Rozšíření nabídky CodeServices o třetí službu. */
+.service-grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.price-custom strong {
+  font-size: 20px;
+}
+
+.icon-discord i:nth-child(1) {
+  width: 25px;
+  height: 18px;
+  border-radius: 4px;
+  background: var(--blue);
+}
+
+.icon-discord i:nth-child(2),
+.icon-discord i:nth-child(3) {
+  width: 4px;
+  height: 4px;
+  top: 7px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.icon-discord i:nth-child(2) { left: 6px; }
+.icon-discord i:nth-child(3) { right: 6px; }
+
+.service-note {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  padding: 25px 5px 0;
+}
+
+.note-arrow {
+  margin-bottom: 0;
+  font-size: 27px;
+}
+
+@media (max-width: 760px) {
+  .service-grid { grid-template-columns: 1fr; }
+  .service-note { min-height: 130px; padding: 7px 4px; }
+  .note-arrow { display: none; }
+}

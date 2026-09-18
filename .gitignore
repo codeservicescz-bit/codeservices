@@ -1,0 +1,6 @@
+# Local customer data — never publish this file to GitHub.
+data/store.json
+
+# Local dependencies and environment configuration.
+node_modules/
+.env
